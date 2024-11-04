@@ -14,7 +14,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Ordinary - Work in Progress",
-  description: "Clothing brand established in Basement",
+  description: "Clothing brand established in Ulaanbaatar, Mongolia",
 };
 
 export default function RootLayout({ children }) {
