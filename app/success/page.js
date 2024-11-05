@@ -1,5 +1,4 @@
-// /app/success/page.js
-import Success from './success';
+import Success from './Success';
 
 const Page = () => {
   return (
@@ -13,5 +12,6 @@ const Page = () => {
     </div>
   );
 };
+
 
 export default Page;
