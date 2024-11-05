@@ -3,7 +3,6 @@
 import Image from "next/image";
 import emailjs from "emailjs-com";
 import { useRouter } from "next/compat/router";
-import { useEffect } from "react";
 
 export default function Fields() {
   const router = useRouter();

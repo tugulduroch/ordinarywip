@@ -2,9 +2,11 @@
 
 import React from "react";
 import Image from "next/image";
-import { useRouter } from "next/router";
+import { useRouter } from "next/compat/router";
 
 const Success = () => {
+  const router = useRouter();
+
   return (
     <div className="flex flex-col items-center justify-center">
       {" "}
