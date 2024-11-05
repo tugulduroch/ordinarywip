@@ -6,7 +6,7 @@ const Page = () => {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Success/>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center px-4">
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center px-4 pl-6">
         Copyright © 2024 Ordinary - Work in Progress. All Rights Reserved.
       </footer>
     </div>
