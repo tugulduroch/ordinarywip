@@ -2,9 +2,11 @@
 
 import React from "react";
 import Image from "next/image";
-import { useRouter } from "next/router";
+import { useRouter } from "next/compat/router";
 
 const Success = () => {
+  const router = useRouter();
+
   return (
     <div className="flex flex-col items-center justify-center">
       {" "}
@@ -20,8 +22,9 @@ const Success = () => {
         />
         {/* <h1 className="text-3xl font-bold text-white mb-4">Thank You!</h1>{" "} */}
         <p className="text-white mb-6">
-          Your message has been successfully sent. We appreciate your feedback
-          and will get back to you shortly!
+          Та өөрийн бүртгүүлсэн и-мэйл хаягаа шалгана уу. Тун удахгүй
+          баталгаажуулах и-мэйл очих бөгөөд баталгаажсан тохиолдолд таны
+          захиалга амжилттай бүртгэгдэх болно. Баярлалаа.
         </p>
         <button
           onClick={() => router.push("/")}

@@ -2,8 +2,7 @@
 
 import Image from "next/image";
 import emailjs from "emailjs-com";
-import { useRouter } from "next/compat/router";
-import { useEffect } from "react";
+import { useRouter } from 'next/navigation';
 
 export default function Fields() {
   const router = useRouter();
@@ -20,8 +19,9 @@ export default function Fields() {
       )
       .then(
         (result) => {
-          alert("Амжилттай илгээгдлээ.");
+          // alert("Амжилттай илгээгдлээ.");
           router.push("/success");
+          console.log("Амжилттай илгээгдлээ.")
         },
         (error) => {
           alert("Алдаа гарлаа.");
