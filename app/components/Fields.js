@@ -42,7 +42,7 @@ export default function Fields() {
               priority
               className="lg:pb-6 pb-4"
             />
-            <p className="max-w-xl text-lg pl-6">
+            <p className="max-w-xl text-lg pl-6 text-white">
               I'm a human being. I've got opinions, I'm not always right, I'm
               not always on time, I don't always say things in the proper way,
               but my intentions are always extremely pure.
