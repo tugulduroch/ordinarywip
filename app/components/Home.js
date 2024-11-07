@@ -19,8 +19,8 @@ const HomePage = () => {
         />
         {/* <h1 className="text-3xl font-bold text-white mb-4">Thank You!</h1>{" "} */}
         <p className="text-white mb-6">
-          Pre-orders will be available soon. Stay tuned for updates and be ready
-          to claim your style when pre-orders open!"
+          All items have been sold out, and shipping will begin tomorrow. Thank you,
+          all!
         </p>
       </div>
     </div>
